@@ -27,3 +27,16 @@
         name: 
           - docker
           - docker-compose
+
+- name: Nginx web server
+  hosts: aws
+  become: yes
+  tasks:
+  - name: install Nginx
+    apt:
+      name: nginx
+      state: absent #latest
+  - name: start nginx service
+    service:
+      name: nginx
+      state: stopped #started
