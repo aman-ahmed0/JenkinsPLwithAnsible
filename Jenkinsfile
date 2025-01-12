@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        ANSIBLE_SERVER = "167.99.136.157"
+        ANSIBLE_SERVER = "167.99.136.157" #Update_with_new_Server_IP
     }
     stages {
         stage("copy files to ansible server") {
@@ -30,8 +30,8 @@ pipeline {
                     withCredentials([sshUserPrivateKey(credentialsId: 'ansible-server-key', keyFileVariable: 'keyfile', usernameVariable: 'user')]){
                         remote.user = user
                         remote.identityFile = keyfile
-                        sshScript remote: remote, script: "prepare-ansible-server.sh"
-                        sshCommand remote: remote, command: "ansible-playbook my-playbook.yaml"
+                        sshScript remote: remote, script: "prepare_ansible_server.sh"
+                        sshCommand remote: remote, command: "ansible-playbook myPlaybook.yaml"
                     }
                 }
             }
