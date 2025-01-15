@@ -99,5 +99,5 @@ This project is licensed under the MIT License.
 For questions or feedback, feel free to reach out:
 
 - **Email**: [ahmedaman7@outlook.com]  
-- **LinkedIn**: [[Your LinkedIn Profile](https://www.linkedin.com/in/ahmedaman1/)]  
-- **GitHub**: [[Your GitHub Profile](https://github.com/aman-ahmed0)] 
+- [[LinkedIn](https://www.linkedin.com/in/ahmedaman1/)]  
+- [[GitHub](https://github.com/aman-ahmed0)] 
