@@ -1,10 +1,17 @@
-# JenkinsPLwithAnsible
-Install Docker and Docker-Compose with Ansible in Jenkins Pipeline using Ansible. Docker and Docker-Compose may be used for further installations when needed.
-You should have configured Jenkins to use the branch where you have the files (prepare_ansible_server.sh), Jenkins file, and the Ansible folder.
-
 # DevOps Automation with Ansible, Jenkins, and Docker
 
-This repository demonstrates my expertise in **DevOps automation** using **Ansible**, **Jenkins**, and **Docker**. The project showcases how to automate infrastructure provisioning, configuration management, and deployment workflows.
+This repository highlights my expertise in **DevOps automation** using **Ansible**, **Jenkins**, and **Docker**. The project demonstrates how to automate infrastructure provisioning, configuration management, and deployment workflows.
+
+The setup includes:
+- Installing **Docker** and **Docker-Compose** using Ansible.
+- Automating the process through a **Jenkins Pipeline**.
+- Using Docker and Docker-Compose for additional installations as needed.
+
+### **Prerequisites**
+- Ensure Jenkins is configured to use the branch containing the following files:
+  - `prepare_ansible_server.sh`
+  - `Jenkinsfile`
+  - The Ansible folder (containing playbooks and configuration files).
 
 ---
 
@@ -80,3 +87,17 @@ This project includes the following components:
    ```bash
    chmod +x prepare_ansible_server.sh
    ./prepare_ansible_server.sh
+
+---
+
+## **License**
+This project is licensed under the MIT License.
+
+---
+
+## **Contact**
+For questions or feedback, feel free to reach out:
+
+- **Email**: [ahmedaman7@outlook.com]  
+- **LinkedIn**: [[Your LinkedIn Profile](https://www.linkedin.com/in/ahmedaman1/)]  
+- **GitHub**: [[Your GitHub Profile](https://github.com/aman-ahmed0)] 
